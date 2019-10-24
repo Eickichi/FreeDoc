@@ -7,6 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Paris = City.create(name: 'Paris')
-Jiad = Doctor.create(first_name: "Jiad", last_name: "Abdul", zip_code: "75019", city_id: City.first.id)
+Maeva = Doctor.create(first_name: "Maeva", last_name: "Paoletti", zip_code: "75015", city_id: City.first.id)
 specialty1 = Specialty.create(name: "Dentist")
 doctorspecialty1 = DoctorSpecialty.create(doctor_id: '1', specialty_id: '1')
