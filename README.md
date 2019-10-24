@@ -1,24 +1,4 @@
-# README
+FreeDoc
+Un projet validant de THP fait par DAVID YE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Une petite base de données sympathique avec l'utilisation de ActiveRecord, pour démarrer le programme touuuujours verifier en premier si les models sont up ou down avec la fameuse commande "rails db:migrate:status" selon leur etat on vas les activer avec la commande "rails db:migrate" une fois fait on peut lancer le seed avec la petite commande "rails db:seed" ce qui vas generer des "sujets" test pour notre petite BDD, pour rentrer dans la console tu fais "rails c" et a toi de jouer JEUNE POMME 
